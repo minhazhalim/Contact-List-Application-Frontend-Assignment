@@ -1,0 +1,188 @@
+/* Custom Styles for Contact App */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+/* Body Styles */
+body {
+  font-family: "Varela Round", sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Navbar Styles */
+.navbar {
+  background: #fff;
+  -moz-box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
+  box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
+  padding: 10px 16px;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 20px;
+  color: #dd5638;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand:hover {
+  color: #c04a2f;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #435d7d;
+}
+
+/* Button Circle */
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+/* Font Size */
+.fs-2 {
+  font-size: 25px;
+}
+
+/* Form Select */
+.form-select {
+  padding: 3px 15px;
+  border: 2px solid green;
+  max-width: 250px;
+}
+
+/* Card Title */
+.card-title {
+  color: #fff;
+  background: #435d7d;
+  padding: 16px 20px;
+}
+
+.card-title h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #435d7d;
+  color: #f7f7f7;
+}
+
+.footer a {
+  color: #d9d9d9;
+}
+
+/* Search Container */
+.search-container {
+  flex: 1;
+  max-width: 400px;
+  min-width: 200px;
+}
+
+/* Modal Header Override */
+.modal-header.card-title {
+  border-radius: 0;
+}
+
+.modal-header.card-title .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Table Styles */
+.table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* No Contact Message */
+.text-center.py-5 i.fa-address-book {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-title .d-flex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .search-container {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .form-select {
+    max-width: 100%;
+  }
+}
+
+/* Delete Modal Header */
+.modal-header.bg-danger .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Loading Spinner */
+.spinner-border {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Form Control Plaintext */
+.form-control-plaintext {
+  border-bottom: 1px dashed #dee2e6;
+  padding-bottom: 0.5rem;
+}
+
+/* Alert Styles */
+.alert {
+  border-radius: 0;
+}
+
+/* Action Buttons */
+.btn-circle:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+/* Table Hover Effect */
+.table-hover tbody tr:hover {
+  background-color: rgba(67, 93, 125, 0.05);
+}
+
+/* Card Shadow */
+.card {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+/* Button Transitions */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.btn-danger:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
+}
